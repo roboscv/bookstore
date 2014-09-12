@@ -24,12 +24,12 @@ class BookTest < ActiveSupport::TestCase
 	  assert_equal 'Neal Stephenson', found_book.author
 	  assert_equal 440, found_book.pages
 	end
-	test 'update from a fixture' do |
+	test 'update from a fixture' do 
 		book=books(:ender)
 		assert_equal 4.83, book.price
 		book.price=3.99
 		book.save
 		updated=Book.find(book.id)
-		assert_equal 3.99, updated.price|
+		assert_equal 3.99, updated.price
 	end
 end
