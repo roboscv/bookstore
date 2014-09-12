@@ -3,13 +3,11 @@
 one:
   title: MyString
   author: MyString
-  string: MyString
-  pages: MyString
-  integerprice: 9.99
+  pages: 100
+  price: 9.99
 
 two:
   title: MyString
   author: MyString
-  string: MyString
-  pages: MyString
-  integerprice: 9.99
+  pages: 200
+  price: 9.99
