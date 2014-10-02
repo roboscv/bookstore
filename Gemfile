@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+#class 4 lab 6 working with assets
+gem 'bootstrap-sass', '~> 3.1.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
